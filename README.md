@@ -1,2 +1,11 @@
 # Simulated_Elevator
-Simulate real elevator operation
+
+1. Elevator dispatching algorithm: The elevator dispatching algorithm is the core of this problem. I need to design an algorithm that can determine the next action of the elevator based on the current state of the elevator (including the location of the elevator, the direction of the elevator, the target floor of the passengers inside the elevator, and the passenger requests outside the elevator). This algorithm needs to take into account all possible situations and optimize the waiting time of passengers and the operating efficiency of the elevator as much as possible.
+
+2. Concurrency and synchronization: The operation of the elevator and the generation/departure of passengers occur at the same time, and these events will affect the state of the elevator. Therefore, I need to consider concurrency control and synchronization issues to ensure that the state of the elevator is correct at all times.
+
+3. Real-time update and display: This program needs to display the status of the elevator in real time, including the location of the elevator, the direction of the elevator, the situation of passengers inside and outside the elevator, and the execution of the elevator's operating rules. This requires me to be proficient in GUI programming and handle the interaction between the GUI thread and the elevator operation thread.
+
+4. Selection and use of data structures: In order to realize the functions of the elevator, I need to use various data structures, such as queues (for storing passengers inside and outside the elevator), arrays or lists (for storing passenger requests for each floor), and hash tables or dictionaries (for storing elevator operation rules). Selecting and using appropriate data structures can greatly improve the efficiency and readability of the program.
+
+5. Exception handling: Various abnormal situations may occur during the operation of the elevator, such as elevator overload, passenger waiting timeout, etc. I need to be able to handle these abnormal situations correctly so that the elevator can operate normally under any circumstances. This requires me to have a deep understanding of exception handling and good programming habits.
